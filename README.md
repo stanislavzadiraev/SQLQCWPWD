@@ -12,7 +12,7 @@ UPDATE wp_posts SET post_excerpt = REPLACE (post_excerpt, 'OLD.DOMAIN.NAME', 'NE
 UPDATE wp_postmeta SET meta_value = REPLACE (meta_value, 'OLD.DOMAIN.NAME','NEW.DOMAIN.NAME');
 
 
-UPDATE wp_comments SET comments_author_url = REPLACE (comments_author_url, 'OLD.DOMAIN.NAME','NEW.DOMAIN.NAME');
+UPDATE wp_comments SET comment_author_url = REPLACE (comment_author_url, 'OLD.DOMAIN.NAME','NEW.DOMAIN.NAME');
 
 UPDATE wp_wc_admin_notes SET image = REPLACE (image, 'OLD.DOMAIN.NAME','NEW.DOMAIN.NAME');
 UPDATE wp_wc_admin_note_actions SET query = REPLACE (query, 'OLD.DOMAIN.NAME','NEW.DOMAIN.NAME');
